@@ -197,6 +197,58 @@ function App() {
             </div>
           </div>
         </section>
+        {/* Footer */}
+<footer className="bg-gray-900 text-gray-300 py-12">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid md:grid-cols-4 gap-8">
+      {/* Brand & Description */}
+      <div>
+        <a href="/" className="text-2xl font-bold text-white mb-4 inline-block">
+          InvestSmart
+        </a>
+        <p className="text-sm">
+          Making intelligent investing accessible, secure, and rewarding for everyone.
+        </p>
+      </div>
+
+      {/* Quick Links */}
+      <div>
+        <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+        <ul className="space-y-2 text-sm">
+          <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
+          <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
+          <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
+          <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+          <li><a href="/terms" className="hover:text-white transition-colors">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      {/* Contact */}
+      <div>
+        <h4 className="text-lg font-semibold text-white mb-4">Get in Touch</h4>
+        <ul className="space-y-2 text-sm">
+          <li>support@investsmart.com</li>
+          <li>+234 000 000 0000</li>
+          <li>Port Harcourt, Nigeria</li>
+        </ul>
+      </div>
+
+      {/* Social & Copyright */}
+      <div>
+        <h4 className="text-lg font-semibold text-white mb-4">Follow Us</h4>
+        <div className="flex space-x-4 mb-6">
+          <a href="#" className="hover:text-white transition-colors text-xl">𝕏</a>
+          <a href="#" className="hover:text-white transition-colors text-xl">📘</a>
+          <a href="#" className="hover:text-white transition-colors text-xl">📸</a>
+          <a href="#" className="hover:text-white transition-colors text-xl">🔗</a>
+        </div>
+        <p className="text-sm">
+          © {new Date().getFullYear()} InvestSmart. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
       </main>
     </div>
   );
