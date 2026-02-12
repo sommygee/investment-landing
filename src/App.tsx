@@ -116,6 +116,53 @@ function App() {
             </div>
           </div>
         </section>
+        <section id="features" className="py-16 md:py-24 bg-white dark:bg-gray-900">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+        Why Choose InvestSmart?
+      </h2>
+      <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+        Powerful features designed for smarter, safer investing.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Feature 1 */}
+      <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+        <div className="text-5xl mb-4">🛡️</div>
+        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+          Secure & Reliable
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          Bank-grade encryption, automated backups, and real-time monitoring to protect your investments.
+        </p>
+      </div>
+
+      {/* Feature 2 */}
+      <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+        <div className="text-5xl mb-4">📊</div>
+        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+          Real-Time Analytics
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          Live portfolio tracking, AI-driven insights, and performance reports at your fingertips.
+        </p>
+      </div>
+
+      {/* Feature 3 */}
+      <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+        <div className="text-5xl mb-4">⚡</div>
+        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+          Automated Tools
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          Set rules once, let smart automation handle rebalancing and alerts.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
 
       {/* Temporary debug counter */}
